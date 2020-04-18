@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+}
+
+header{
+  background-color: rgba(242, 241, 239, .6);
+  padding: 35px 0;
+  text-align: center;
+}
+
+header > h2{
+  font-family: Montserrat;
+  font-size: 36px;
+  margin: 0;
+}
+header > p{
+    font-family: Lato;
+    font-size: 18px;
+}
+main{
+    margin: auto;
+}
+
+.image-container{
+    
+    margin: 20px auto;
+    width: 1024px;
+    height: 623px;
+}
+
+.container{
+    text-align: center;
+    margin: 50px auto;
+}
+.container > ul{
+    list-style-position: inside;
+}
+.container{
+    line-height: 22px;
+}
+.inside{
+    width: 700px;
+    margin: 0 auto;
+    font-family: Lato;
+    font-size: 16px;
+}
+.inside > ul{
+    list-style-position: inside;
+    text-align: left;
+    line-height: 22px;
+}
+.inside > ul > li {
+    margin: 15px 0;
+}
